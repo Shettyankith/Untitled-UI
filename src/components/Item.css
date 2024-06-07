@@ -1,6 +1,6 @@
 .item_container{
     text-align: center;
-    width: 400px;
+    width: 33.33%;
     flex-shrink: 0;
     margin: 1rem;
 }
