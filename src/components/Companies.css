@@ -1,0 +1,40 @@
+.company_section{
+    min-height: 300px;
+    padding: 4rem 0;
+    width: 100%;
+}
+
+.company_section p{
+    text-align: center;
+    color: grey;
+    font-weight: 500;
+}
+
+.compnay_names{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.company_section div img{
+    width: 100px;
+    height: 100px;
+}
+
+.compnay_names div{
+    display: flex;
+    align-items: center;
+}
+
+.compnay_names div h4{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+@media (max-width:900px){
+    .compnay_names{
+        flex-wrap: wrap;
+    }
+    .company_section div{
+        margin: 1rem;
+    }
+}

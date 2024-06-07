@@ -1,0 +1,62 @@
+.questions{
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+.question_list{
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    width: 100%;
+    text-align: center;
+}
+
+.profile_photo{
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+}
+
+.profile_photo img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.contact p{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.contact h6{
+    color: gray;
+    font-weight: 500;
+}
+
+.contact button{
+    width: max-content;
+    background-color:  #7F56D7;
+    color: white;
+    border-radius: 5px;
+    padding: 0.5rem;
+    border: none;
+    font-weight: 500;
+}
+
+@media (max-width:900px){
+    .questions{
+        width: 100%;
+    }
+    .qstn_box{
+        width: 90%;
+    }
+}

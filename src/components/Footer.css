@@ -1,0 +1,42 @@
+footer{
+   
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 3rem;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    margin:  0 auto;
+}
+
+.copyright{
+    border-top: 1px solid gray;
+    margin:  0 auto;
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright h6{
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width:900px){
+    .footer-container{
+        flex-wrap: wrap;
+    }
+    footer{
+        padding: 0;
+    }
+}
+
+@media (max-width:450px){
+    .copyright{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,34 @@
+.item_container{
+    text-align: center;
+    width: 400px;
+    flex-shrink: 0;
+    margin: 1rem;
+}
+
+.item_container button{
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
+.item_container h6{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.item_container p{
+    color: gray;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+@media (max-width:450px){
+    .items{
+        margin-left: 0;
+    }
+    .item_container{
+        margin-left: 2rem;
+        width: 100%;
+    }
+}

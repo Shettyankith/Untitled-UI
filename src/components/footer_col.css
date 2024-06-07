@@ -1,0 +1,38 @@
+
+.footer-col{
+    width: 20%;
+    margin: 1rem;
+    padding-left: 3rem;
+}
+
+.footer-col h4,ul li{
+    font-size: 1rem;
+   
+}
+
+ul {
+    padding: 0;
+}
+
+ul li{
+    color: black;
+    padding: 0;
+    margin: 0.5rem;
+    margin-left: 0;
+}
+
+.footer-col h4{
+    color: gray;
+}
+
+@media (max-width:900px){
+    .footer-col{
+        padding: 0;
+    }
+}
+
+@media (max-width:450px){
+    .footer-col{
+        width: 30%;
+    }
+}

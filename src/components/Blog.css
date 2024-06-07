@@ -1,0 +1,97 @@
+.blog{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header button{
+    background-color:  #7F56D7;
+    color: white;
+    width: max-content;
+    border: none;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.header p{
+    color: #7F56D7;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.header h4{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.header h6{
+    color: gray;
+    font-weight: 500;
+}
+
+.posts{
+    display: flex;
+}
+
+.free_trial{
+    margin: 2rem;
+    text-align: center;
+}
+
+.free_trial p{
+    color: gray;
+    font-weight: 400;
+}
+
+.learn{
+    background-color: transparent;
+    border:  2px solid black;
+    width: max-content;
+    padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.start{
+    background-color: #7F56D7;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 0.5rem;
+    border: none;
+}
+
+@media (max-width:900px){
+    .blog{
+        width: 95%;
+    }
+    .posts{
+        flex-direction: column;
+    }
+    .header{
+        flex-direction: column;
+    }
+    .header h4{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:450px){
+    .learn,.start{
+        width: 90%;
+    }
+    .free_trial{
+        margin: 0;
+    }
+    .header button{
+        width: 100%;
+        font-size: 1.2rem;
+    }
+}
